@@ -1,0 +1,18 @@
+-BACKEND
+    .criar pasta do projeto e abrir no VSCode
+    .abrir o terminal e criar a pasta "backend"
+    .depois no caminho da pasta backend dar o comando "npm init -y" no terminal. (vai o arquivo package.json)
+    .depois dar o comando "npm i json-server" (criar a pasta do node e o package-lock.json)
+    .criar o arquivo "db.json" na mão e colocando um Json com os dados que ficarão salvos (vai ser o BD)
+    .adicionar: "start": "json-server --watch db.json --port 3001" na tag script do arquivo package.json (definição do comando para iniciar)
+    .para iniciar api, entre no terminal no caminho da pasta 'backend' e dar o comando "npm start"
+
+-FRONTEND
+    .habilitar o CLI do Angular para habilitar os comandos 'ng'
+    .dar o comando 'npm i -g @angular/cli' (vai instalar a dependência)
+    .dar o comando 'ng new frontend --minimal' > dar enter > escrever Y e dar enter
+    .entrar na pasta frontend e dar o comando 'npm start'
+    .entrar no arquivo angular.json e mudar inlineTemplate e inlineStyle para false
+    .dar o comando ng add @angular/material
+    .dar o comando "ng generate component components/template/header"
+    
